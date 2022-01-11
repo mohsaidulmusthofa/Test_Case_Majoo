@@ -21,7 +21,7 @@ class TableProdukSeeder extends Seeder
                 'harga_produk'          => 2750000,
                 'id_kategori_produk'    => 1,
                 'deskripsi_produk'      => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, repellat!",
-                'foto_produk'           => "majoopro.jpg",
+                'foto_produk'           => "majoopro.png",
                 
             ],
             [
@@ -30,7 +30,7 @@ class TableProdukSeeder extends Seeder
                 'harga_produk'          => 2750000,
                 'id_kategori_produk'    => 2,
                 'deskripsi_produk'      => "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum fugiat ipsa dignissimos inventore voluptates vel fuga tempore facere eaque cupiditate!",
-                'foto_produk'           => "majooadvance.jpg",
+                'foto_produk'           => "majooadvance.png",
                 
             ],
             [
@@ -39,7 +39,7 @@ class TableProdukSeeder extends Seeder
                 'harga_produk'          => 2750000,
                 'id_kategori_produk'    => 3,
                 'deskripsi_produk'      => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, repellatv oluptates vel fuga tempore facere eaque cupiditat!",
-                'foto_produk'           => "majoolifestyle.jpg",
+                'foto_produk'           => "majoolifestyle.png",
                 
             ],
             [
@@ -48,7 +48,7 @@ class TableProdukSeeder extends Seeder
                 'harga_produk'          => 2750000,
                 'id_kategori_produk'    => 4,
                 'deskripsi_produk'      => "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, repellat!",
-                'foto_produk'           => "majoodesktop.jpg",
+                'foto_produk'           => "majoodesktop.png",
                 
             ],
         ]);

@@ -12,6 +12,8 @@ class User extends Authenticatable
 {
     use HasApiTokens, HasFactory, Notifiable;
 
+    public $table = "admin";
+    public $timestamps = true;
     /**
      * The attributes that are mass assignable.
      *
@@ -23,6 +25,16 @@ class User extends Authenticatable
         'password',
     ];
 
+    /**
+     * The attributes that are mass assignable.
+     *
+     * @var string[]
+     */
+    protected $guarded = [
+        'id_admin'
+    ];
+
+    protected $primaryKey = 'id_admin';
     /**
      * The attributes that should be hidden for serialization.
      *
