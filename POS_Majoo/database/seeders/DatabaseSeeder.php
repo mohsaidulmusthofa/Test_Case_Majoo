@@ -13,6 +13,11 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // \App\Models\User::factory(10)->create();
+        // Harus urut, tabel primary key harus di atas tabel foreign key
+        $this->call(TableAdminSeeder::class);
+        $this->call(TablePelangganSeeder::class);
+        $this->call(TableSupplierSeeder::class);
+        $this->call(TableKategoriProdukSeeder::class);
+        $this->call(TableProdukSeeder::class);
     }
 }
