@@ -18,7 +18,7 @@ class TableAdminSeeder extends Seeder
             [
                 'id_admin'      => 1,
                 'nama_admin'    => "Super Admin",
-                'email'         => "superadmin@majoo.com",
+                'email'         => "adminmajoo@gmail.com",
                 'password'      => 'majoo123'
             ]
         ]);
