@@ -13,7 +13,7 @@
                                     src="{{ asset('assets/img/theme/team-4.jpg') }}">
                             </span>
                             <div class="media-body  ml-2  d-none d-lg-block">
-                                <span class="mb-0 text-sm  font-weight-bold">Admin</span>
+                                <span class="mb-0 text-sm  font-weight-bold">{{ auth()->admin()->nama_admin }}</span>
                             </div>
                         </div>
                     </a>

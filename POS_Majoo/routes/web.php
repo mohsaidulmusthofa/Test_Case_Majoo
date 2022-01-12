@@ -37,7 +37,7 @@ Route::get('home', [HomeController::class, 'index'])->name('vdashboard');
 |----------------------
 */
 //Route ke halaman catalog produk
-Route::get('catalog',[CatalogController::class, 'index'])->name('vcatalog');
+Route::get('catalog',[CatalogController ::class, 'index'])->name('vcatalog');
 
 
 /*

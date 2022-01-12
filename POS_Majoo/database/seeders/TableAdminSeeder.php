@@ -19,7 +19,7 @@ class TableAdminSeeder extends Seeder
                 'id_admin'      => 1,
                 'nama_admin'    => "Super Admin",
                 'email'         => "superadmin@majoo.com",
-                'password'      => bcrypt('majoo123')
+                'password'      => 'majoo123'
             ]
         ]);
     }
